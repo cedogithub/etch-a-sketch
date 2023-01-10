@@ -40,13 +40,13 @@ function color(color = "red") {
     });
   });
 }
+
 // Erasing the entire content of the grid when the "clear" button is clicked
 clear.addEventListener("click", (e) => {
   let gridItem = document.querySelectorAll(".grid-item");
   gridItem.forEach((item) => {
     item.style.backgroundColor = "white";
   });
-
 });
 
 // Picking a specific color when choosing from the color wheel
